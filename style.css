@@ -1,0 +1,109 @@
+body{
+	background-color: #241f20;
+	margin: 0;
+	padding: 0;
+	font-family: futura;
+}
+
+p {
+	margin: 0;
+}
+
+ /*==========================*/
+
+/* LAYOUT */
+
+ /*==========================*/
+
+.link {
+	margin-bottom: 1em;
+}
+
+.vertContent {
+	margin-top: 10em;
+}
+
+
+ /*==========================*/
+
+ /* FONT */
+
+ /*==========================*/
+.textJustify {
+	text-align: justify;
+}
+
+.textHeavy {
+	font-weight: 400;
+}
+
+.textWhite {
+ 	color: white;
+}
+
+.blueText {
+	/*color: #aedaff;*/
+	color: #241f20;
+}
+
+.grayText {
+	color: #b4b8ba;
+}
+
+.darkGrayText {
+	color: #8c9295;
+}
+
+.dash {
+	color: #2e9fff;
+}
+
+.jsText {
+	font-size: 1.9em;
+}
+
+.linkText {
+	font-size: 1.3em;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.titleText {
+	font-size: 1.7em;
+	text-align: center;
+}
+
+.nameText {
+	font-size: 4em;
+	text-align: center;
+}
+
+.pinkBackground {
+	background-color: #ff2e9f;
+}
+
+.greenBackground {
+	background-color: #2eff8e;
+}
+
+ /*==========================*/
+
+ /* MEDIA */
+
+ /*==========================*/
+
+@media (max-width: 768px){
+	.vertContent {
+		margin-top: 1.5em;
+	}
+	.link {
+		padding: 1.3em 0;
+	}
+	.linkText {
+		font-size: 2em;
+	}
+}
+
+
