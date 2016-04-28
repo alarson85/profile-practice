@@ -3,10 +3,23 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: futura;
+	background-image: url('img/47H.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+.alexplainPage {
+	background-color: rgba(0,0,0, .5);
+	height: 100vh;
 }
 
 p {
 	margin: 0;
+}
+
+.noUnderline {
+	text-decoration: none;
 }
 
  /*==========================*/
@@ -85,7 +98,7 @@ p {
 }
 
 .greenBackground {
-	background-color: #2eff8e;
+	background-color: rgba(46,255,142, .8);
 }
 
  /*==========================*/
