@@ -9,6 +9,10 @@ body{
 	background-position: center top;
 }
 
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
 .alexplainPage {
 	background-color: rgba(0,0,0, .5);
 	height: 100vh;
@@ -16,10 +20,6 @@ body{
 
 p {
 	margin: 0;
-}
-
-.noUnderline {
-	text-decoration: none;
 }
 
  /*==========================*/
