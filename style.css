@@ -119,4 +119,23 @@ p {
 	}
 }
 
+@media (max-width: 480px){
+	.link {
+		padding: .8em 0;
+	}
+	.nameText {
+		font-size: 3.5em;
+	}
+	.jsText {
+		text-align: center;
+	}
+	.greenBackground {
+	background-color: rgba(46,255,142, .5);
+	}
+	.pinkBackground {
+	background-color: #ff2e9f;
+	}
+}
+
+
 
