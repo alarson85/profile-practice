@@ -3,15 +3,38 @@
     zoom: 1.0;
 }
 
-body{
+body {
 	background-color: #241f20;
 	margin: 0;
 	padding: 0;
 	font-family: futura;
+}
+
+.landingWrapper {
 	background-image: url('img/47H.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center top;
+}
+
+.landingColor {
+	background-color: rgba(0,0,0,.5);
+	height: 110%;
+}
+
+.developmentWrapper {
+	background-image: url('img/badges.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.developmentColor {
+	background-color: rgba(0,0,0,.1);
+}
+
+.projectWrapper {
+	background-color: #14ff80;
 }
 
 a:hover, a:visited, a:link, a:active {
@@ -20,30 +43,37 @@ a:hover, a:visited, a:link, a:active {
 
 .alexplainPage {
 	background-color: rgba(0,0,0, .5);
-	height: 100vh;
 }
 
 p {
 	margin: 0;
+	font-size: 1.2em;
+}
+
+ul {
+	margin-bottom: 0;
+}
+
+img {
+	width: 100%;
+}
+
+.alexplainLogo {
+	width: 50%;
+}
+
+.logoDiv {
+	margin: 2em 0;
+	text-align: center;
 }
 
 .fa {
 	font-size: 2.8em;
 }
 
-.arrow-down {
-	margin: 0 auto;
-	width: 0; 
-	height: 0; 
-	border-left: 40px solid transparent;
-	border-right: 40px solid transparent;
-	border-top: 40px solid #2e9fff;
-}
-
-.arrowProfileText {
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 2em;
+.badge {
+	width: 6em;
+	padding: .5em;
 }
 
  /*==========================*/
@@ -51,6 +81,10 @@ p {
 /* LAYOUT */
 
  /*==========================*/
+
+.topSpace {
+	margin-top: 40%;
+}
 
 .link {
 	margin-bottom: 1em;
@@ -62,13 +96,57 @@ p {
 
 .linkDivs {
 	display: inline-block;
-	padding: 2em 1em .5em 1em;
+	padding: .4em .5em 2em .5em;
 }
 
 .divLinkText {
 	font-size: .6em;
 }
 
+.arrow-down {
+	margin: 0 auto;
+	width: 0; 
+	height: 0; 
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 40px solid #14ff80;
+	padding-bottom: 5em;
+}
+
+.arrowProfileText {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 9em;
+	color: #ff2e9f;
+}
+
+.portfolioWrap {
+	background-color: #2e9fff;
+}
+
+.headersContainer {
+	background-color: rgba(0,0,0,.2);
+	margin: 0;
+}
+
+.projectText {
+	text-align: center;
+	padding: 1em 0;
+}
+
+.projectContainer {
+	background-color: rgba(0,0,0,.2);
+	padding: 1em;
+}
+
+.projectDescription {
+	background-color: rgba(0,0,0,.3);
+	color: white;
+}
+
+.projDescText {
+	padding: .6em;
+}
 
  /*==========================*/
 
@@ -89,7 +167,11 @@ p {
 
 .blueText {
 	/*color: #aedaff;*/
-	color: #241f20;
+	color: #2e9fff;
+}
+
+.greenText {
+	color: #14ff80;
 }
 
 .grayText {
@@ -122,8 +204,12 @@ p {
 }
 
 .nameText {
-	font-size: 4em;
+	font-size: 3.3em;
 	text-align: center;
+}
+
+#alexplainLink {
+	color: white;
 }
 
 .pinkBackground {
@@ -132,6 +218,73 @@ p {
 
 .greenBackground {
 	background-color: rgba(46,255,142, .8);
+}
+
+.developmentHeader {
+	color:white;
+}
+
+ /*==========================*/
+
+ /* PAGE CUSTOM STYLING */
+
+ /*==========================*/
+
+ .navBarStyling {
+ 	text-align: center;
+ }
+
+ .navLinks {
+ 	padding: 0 .5em;
+ 	margin-top: 1em;
+ 	color: black;
+ }
+
+ .headerText {
+ 	text-align: center;
+ 	padding: 1em 0;
+ }
+
+nav{
+    background-color:black;
+    overflow:hidden;
+    width:100%;
+}
+
+ #navbar-fixed {
+    top: 0;
+    z-index: 100;
+  position: fixed;
+    width: 100%;
+}
+
+.introTop {
+	margin-top: 1em;
+}
+
+.introBottom {
+	margin-bottom: 2em;
+}
+
+.HTML {
+	width:8em;
+}
+
+.node {
+	width: 6.8em;
+}
+
+.firebase {
+	margin-left: 10px;
+	width: 7em;
+}
+
+.exp {
+	margin-left: 20px;
+}
+
+.angular {
+	margin-top: 10px;
 }
 
  /*==========================*/
@@ -149,6 +302,9 @@ p {
 	}
 	.linkText {
 		font-size: 2em;
+	}
+	.navLinks {
+		display: none;
 	}
 }
 
@@ -193,6 +349,13 @@ p {
 	}
 	.darkGrayText {
 		color: white;
+	}
+	.badge {
+		width: 10em;
+		padding: .5em;
+	}
+	.alexplainLogo {
+		width: 100%;
 	}
 }
 
