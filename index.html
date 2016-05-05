@@ -11,7 +11,7 @@
 	<div class="alexplainPage">
 		<div class="row mobilMargin landingWrapper">
 			<div class="landingColor">
-				<div class="container col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 .mobileMargin">
+				<div class="containerAl col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 .mobileMargin">
 					<div class="row">
 						<div class="col-md-12">
 							<p class="nameText textJustify textHeavy topSpace"><span class="greenText">LARSON</span><span class="dash">/</span><span class="textWhite textJustify">ALEX</span></p>
@@ -78,7 +78,7 @@
 					<div class="headersContainer">
 						<h1 class="aboutHeader headerText">ABOUT</h1>
 					</div>
-					<div class="container col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+					<div class="containerAb col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
 						<p class="intro introTop">I enjoy development, design, and how they intersect in my life. A website should be an extension of who you are. You'll find my website reflects my love of travel, youthful nostalgia, and inspiration from the many talented and wonderful people I interact with regularly.</p>
 						<br />
 						<p class="intro">I'm a native of Utah, but my exposure is global. My curiosity for other places and cultures is inherted. As such, I've lived in several contries and continents, but am as happy here in sunny Dallas, as I am the snowy mountains I was raised in.</p>
@@ -96,7 +96,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="developmentHeader container col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+					<div class="developmentHeader containerDev col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
 						<p class="introTop introBottom">I've been working on becoming a coding master by mastering the following languages, libraries, and anything I can find:</p>
 						<div class="row">
 							<div class="col-sm-3 col-sm-offset-5 col-xs-6">
@@ -136,23 +136,37 @@
 				<h1 class="projectText">PROJECTS</h1>
 			</div>
 			<div class="projectContainer">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-5 col-md-offset-1">
-							<a href="http://trax.alexplain.com/"><img src="img/trax.png"></a>
+				<div class="container"> 
+					<div class="projCont">
+						<div class="row">
+							<div class="col-sm-10 col-sm-offset-1 projDiv">
+								<a href="http://trax.alexplain.com/">
+									<img class="projImg" src="img/trax.png">
+								</a>
+							</div>
 						</div>
-						<div class="col-md-5 projectDescription">
-							<p class="projDescText">FlexTrax was concepted with Personal Trainers in mind. Using any device a trainer could have multiple clients at multiple gyms and keep track of schedule as well as fitness and health goals.</p>
-							<p class="projDescText">This project uses HTML, CSS, Angular, Node, Mongo, AngularMoment, among other programs. It was made in a 4 person team.</p>
+					</div>
+					<div class="projContPink">
+						<div class="row">
+							<div class="col-sm-10 col-sm-offset-1 projDiv">
+								<a class="centerDiv" href="#">
+									<img class="projImg" src="img/bedazzled">
+								</a>
+							</div>
 						</div>
+					</div>
+					<div class="projContBlack">
+						<div class="row">
+							<div class="col-sm-10 col-sm-offset-1 projDiv">
+								<a href="#">
+									<img class="projImg" src="img/SLCalendar.png">
+								</a>					
+							</div>
 						</div>
 					</div>
 				</div>
-				<div>
-				</div>
-			</div>	
+			</div>
 		</div>
-	</div>
 	<script>
 		$(window).scroll(function () {
 		    if ($(window).scrollTop() > 280) {

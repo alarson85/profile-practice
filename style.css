@@ -139,14 +139,56 @@ img {
 	padding: 1em;
 }
 
+.projectSpace {
+	padding-left: 30%;
+	margin-top: 1em;
+}
+
 .projectDescription {
-	background-color: rgba(0,0,0,.3);
 	color: white;
+	text-align: center;
 }
 
 .projDescText {
-	padding: .6em;
+	text-align: center;
+	width: 60%;
 }
+
+.projImg {
+	padding-top: 4em 0 1em 0;
+}
+
+.projectSpace {
+	margin-bottom: 1em;
+}
+
+.projCont {
+	background-color: #2e9fff;
+	margin: 2em 0;
+	padding: 2em 0;
+}
+
+.projContPink {
+	background-color: #ff2e9f;
+	margin: 2em 0;
+	padding: 2em 0;
+}
+
+.projContBlack {
+	background-color: black;
+	margin: 2em 0;
+	padding: 2em 0;
+}
+
+.centerDiv {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.container {
+	margin: 0 auto;
+}
+
 
  /*==========================*/
 
